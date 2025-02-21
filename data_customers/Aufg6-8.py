@@ -8,6 +8,8 @@ df_list = [pd.read_csv(os.path.join("./data_customers/data", file), delimiter="|
 df = pd.concat(df_list, ignore_index=True)
 print(df.shape)
 
+print(df["num_kids"].value_counts())
+
 # print(df.info())
 
 print(f"Duplikate: {df.duplicated().sum()}")
