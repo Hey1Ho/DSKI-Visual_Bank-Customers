@@ -80,9 +80,9 @@ def histogram_boxplot_combined_germany():
 
 
 
-# aufg_14()
-# df = clean_gender()
-# df = kick_unecessary_columns(df)
-# print(df.describe(include="all"))
-# histogram_balance()
+aufg_14()
+df = clean_gender()
+df = kick_unecessary_columns(df)
+print(df.describe(include="all"))
+histogram_balance()
 histogram_boxplot_combined_germany()
